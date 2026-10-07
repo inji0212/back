@@ -1,0 +1,34 @@
+package com.ssafy.servlet;
+
+import java.io.IOException;
+
+import jakarta.servlet.ServletException;
+import jakarta.servlet.annotation.WebServlet;
+import jakarta.servlet.http.HttpServlet;
+import jakarta.servlet.http.HttpServletRequest;
+import jakarta.servlet.http.HttpServletResponse;
+
+//서블릿 한개로 모아서 실행
+@WebServlet("/MainServlet")
+public class MainServlet extends HttpServlet {
+
+	private static final long serialVersionUID = 1L;
+
+	@Override
+	protected void service(HttpServletRequest request, HttpServletResponse response)
+			throws ServletException, IOException {
+		// 해당 URL 로 들어오는 모든 요청은 service 메서드를 실행한다.
+		// GET 요청인지 POST 요청인지 구분이 필요한 경우가 있다.
+
+//		request.getMethod(); 해당 메서드로 구분할 수 있다.
+		response.setContentType("text/html; charset=UTF-8");
+
+		// 모든 요청은 전부다 service 메서드로 온다.
+		// 요청이 실제로 하고 싶은 일을 구분해야한다.(등록,조회,수정,삭제,검색 등등)
+		// 구구단, 회원가입 요청이 여기로 온다.
+
+		String act = request.getParameter("act");
+
+	}
+
+}

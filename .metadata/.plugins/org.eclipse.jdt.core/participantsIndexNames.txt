@@ -1,0 +1,11 @@
+INDEX VERSION 1.134
+C:\Users\SSAFY\Desktop\back-workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2357409281.index
+\back_db_ws_02_b\target\generated-sources\annotations
+C:\Users\SSAFY\Desktop\back-workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3742985605.index
+\back_db_ws_02_a\target\generated-sources\annotations
+C:\Users\SSAFY\Desktop\back-workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2179871418.index
+\Backend_02_JSP\src\main\java
+C:\Users\SSAFY\Desktop\back-workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\187039042.index
+\back_db_ws_02_c\src\main\java
+C:\Users\SSAFY\Desktop\back-workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\578917351.index
+\Backend_02_JSP\src\main\java
